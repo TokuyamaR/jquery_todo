@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>jQuery Todo</title>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+<main class="main">
+    <form action="" class="form">
 
+    </form>
+    <div class="searchBox">
+
+    </div>
+    <div class="list-container">
+        <ul class="list js-todo_list">
+            <li class="list__item js-todo_list-item" data-text="サンプルTodoリスト">
+                <i class="far fa-square icon-check js-click-done" aria-hidden="true"></i>
+                <span class="js-todo_list-text">サンプルTodoタスク</span>
+                <input type="text" class="editText js-todo_list-editForm" value="サンプルTodoタスク">
+                <i class="fas fa-trash icon-trash js-click-trash" aria-hidden="true"></i>
+            </li>
+            <li class="list__item list__item--done js-todo_list-item" data-text="サンプルTodoリスト">
+                <i class="far fa-check-square icon-check js-click-todo" aria-hidden="true"></i>
+                <span class="js-todo_list-text">サンプルTodoタスク</span>
+                <input type="text" class="editText js-todo_list-editForm" value="サンプルTodoタスク">
+                <i class="fas fa-trash icon-trash js-click-trash" aria-hidden="true"></i>
+            </li>
+        </ul>
+    </div>
+</main>
+
+<script src="../js/todo.js"></script>
 </body>
 </html>
