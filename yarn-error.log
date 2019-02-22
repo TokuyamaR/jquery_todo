@@ -1,0 +1,51 @@
+Arguments: 
+  /Users/tokuyamaraido/.nodebrew/node/v11.3.0/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js add node-scss
+
+PATH: 
+  /Users/tokuyamaraido/.nodebrew/current/bin:/Users/tokuyamaraido/instantcelient_11_2:/Users/tokuyamaraido/.nodebrew/current/bin:/Users/tokuyamaraido/.phpbrew/php/php-7.2.11/bin:/Users/tokuyamaraido/.phpbrew/bin:/usr/local/opt/php@7.2.11/sbin:/usr/local/opt/php@7.2.11/bin:/usr/local/opt/mysql@5.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.3.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/node-scss: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:66255:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:129397:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:130369:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:130291:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1098:12)
+      at process.internalTickCallback (internal/process/next_tick.js:72:19)
+
+npm manifest: 
+  {
+    "name": "jquery-todo",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.3",
+      "debug": "~2.6.9",
+      "express": "~4.16.0",
+      "http-errors": "~1.6.2",
+      "morgan": "~1.9.0",
+      "pug": "2.0.0-beta11"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
