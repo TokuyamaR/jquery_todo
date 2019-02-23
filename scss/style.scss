@@ -6,6 +6,12 @@ body {
 .main {
   width: 400px;
   margin: 100px auto;
+
+  .title {
+    margin-bottom: 50px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+  }
 }
 
 .form {
